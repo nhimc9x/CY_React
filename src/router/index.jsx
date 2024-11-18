@@ -1,10 +1,13 @@
-import { createBrowserRouter } from 'react-router-dom'
-import NoteApp from "../pages/NoteApp/index.jsx";
+import {createBrowserRouter} from 'react-router-dom'
 
 export const router = createBrowserRouter([
     {
         path: '/',
-        element: <NoteApp />,
+        element: (
+            <div>
+                <h1 className='underline'>Home</h1>
+            </div>
+        ),
     },
     {
         path: '/about',
