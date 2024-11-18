@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+    @apply h-2 w-1.5;
+}
+
+::-webkit-scrollbar-track {
+    @apply rounded-2xl bg-gray-500/10;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply rounded-2xl bg-highlight;
+}
