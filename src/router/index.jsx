@@ -1,13 +1,10 @@
 import {createBrowserRouter} from 'react-router-dom'
+import {TodoApp} from "@/pages/TodoApp/index.jsx";
 
 export const router = createBrowserRouter([
     {
         path: '/',
-        element: (
-            <div>
-                <h1 className='underline'>Home</h1>
-            </div>
-        ),
+        element: <TodoApp/>,
     },
     {
         path: '/about',
